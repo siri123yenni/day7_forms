@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>marquee</title>
+  </head>
+  <body>
+    <!-- marquee tag:
+     it is used to  scrolling the text and images--
+     it is a paired tag,
+     attributes: additional information to html 
+     which is given in the open tag
+    direction-left right up down
+    behavior- scroll slide(ones) alternate(front and back)
+    scrollamount- with how much  speed it should  move
+    scrolldelay-slow
+    loop- how many times it should scroll
+      -->
+    <marquee
+      style="background-color: blue"
+      behavior="scroll"
+      direction="right"
+      scrollamount="20"
+      loop="2"
+    >
+      <h1 style="color: yellow">hi html</h1>
+    </marquee>
+    <marquee behavior="" direction="">
+      <!-- image path can be given in 2 ways 
+         abosolute path- taking images from different website
+         relative path- taking image from particular path-->
+      <img src="../assests/kerla.webp" alt="manali" height="100" width="200" />
+      <img src="ladakh.webp" alt="ladakh" height="100" width="200" />
+      <img src="../assests/goa.webp" alt="goa" height="100" width="200" />
+    </marquee>
+  </body>
+</html>

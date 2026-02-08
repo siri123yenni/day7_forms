@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+    list:collection of items which are arranged in structured format
+     types of list:
+     ordered list
+     unordered list
+     definition list or description list
+     ordered list: sequence 
+     uses <ol></ol> tag
+     <li> </li>--list items
+     type: changes the by default value
+    type="A","a","I","i"
+    
+    -->
+  </body>
+  <center><h1>list</h1></center>
+  <ol type="i">
+    <li>tomato</li>
+    <li>carrot</li>
+    <li>beetroot</li>
+  </ol>
+  <ol type="A">
+    <li>tomato</li>
+    <li>carrot</li>
+    <li>beetroot</li>
+  </ol>
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+  <ol reversed>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+  <ol start="7">
+    <li>tomato</li>
+    <li>carrot</li>
+    <li>beetroot</li>
+  </ol>
+  <ol start="6" type="A">
+    <li>tomato</li>
+    <li>carrot</li>
+    <li>beetroot</li>
+  </ol>
+  <!-- all in one -->
+  <ol start="19" type="A" reversed>
+    <li>tomato</li>
+    <li>carrot</li>
+    <li>beetroot</li>
+    <li>tomato</li>
+    <li>carrot</li>
+    <li>beetroot</li>
+  </ol>
+  <!-- value attribute which is used in li which works same like start attribute  in ol-->
+  <!--undorded lost:
+   by default disk 
+   no reversed and start attribute only type attribute 
+   -->
+  <ul>
+    <li>karthi</li>
+    <li>alluarjun</li>
+    <li>ram</li>
+  </ul>
+  <ul type="square">
+    <li>karthi</li>
+    <li>alluarjun</li>
+    <li>ram</li>
+  </ul>
+  <ul type="circle">
+    <li>karthi</li>
+    <li>alluarjun</li>
+    <li>ram</li>
+  </ul>
+  <!-- definition list:
+   <dl>
+    <dt>-data term/description term 
+    <dd>-data defintion
+   </dl>
+  -->
+  <dl>
+    <dt>HTML:</dt>
+    <dd>hyper text markup language used to build the static structure</dd>
+  </dl>
+  <!-- nested list: mine 
+1.heroes:
+ Mahesh babu
+ alluarjun
+ ram
+
+2.directors
+rajamouli
+trivikram 
+sukumar
+
+3.comedians
+ali
+sunil
+brahmanandham
+
+-->
+  <ol>
+    <li>
+      heroes
+      <ul type="square">
+        <li>maheshbabu</li>
+        <li>alluarjun</li>
+        <li>ram</li>
+      </ul>
+    </li>
+    <li>
+      directors
+      <ul type="square">
+        <li>rajamouli</li>
+        <li>trivikram</li>
+        <li>sukumar</li>
+      </ul>
+    </li>
+    <li>
+      comedians
+      <ul type="square">
+        <li>ali</li>
+        <li>sunil</li>
+        <li>brahmanandham</li>
+      </ul>
+    </li>
+  </ol>
+  <!-- nested list: mine 
+1.heroes:
+ Mahesh babu
+ alluarjun
+ ram
+
+2.directors
+rajamouli
+trivikram 
+sukumar
+
+3.comedians
+ali
+sunil
+brahmanandham
+-->
+  <ol>
+    <li>heroes</li>
+    <li>directors</li>
+    <li>comedians</li>
+    <ul type="square"></ul>
+  </ol>
+</html>

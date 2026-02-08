@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+    forms:
+    form tag attributes-action,
+    method-get (get is a default method attribute,
+    in get method your form data is visible in the url ),
+    post- hide the data
+
+    action:it will tells what will happend next,in action you have to give link 
+    
+    
+    
+    
+    -->
+    <center><h1>Forms</h1></center>
+    <form action="../tables.html" method="get">
+      <label for="fn">firstname:</label>
+      <input type="text" id="fn" required autofocus name="firstn" /><br /><br />
+      <label for="">lastname:</label>
+      <input
+        type="text"
+        value="ex:john"
+        size="60"
+        required
+        minlength="6"
+        name="lastn"
+      /><br /><br />
+      <label>phoneno:</label>
+      <input type="text" value="+91" size="1" disabled required /><br /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

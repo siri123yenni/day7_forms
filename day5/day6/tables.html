@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- tables:
+     which are used to arrange the data  in rows and columns 
+    table
+    thead
+    tbody
+    tfoot
+    tr-tablr row
+    th-table headings
+    td-table data
+    caption-create a title for table
+    attributes: provide additional information
+    border
+    style
+    border-collaapse
+    bgcolor
+    align
+    important 
+    ##rowspan-- merging two or more rows
+    colspan--merging two or more columns
+    cellspacing-- space btw the cell to cell
+    cellpadding-- space btw content and cellborder
+    ##
+    height
+    width
+    total--11
+    -->
+    <center>
+      <h1>Tables</h1>
+      <table
+        border="2"
+        cellspacing="7"
+        cellpadding="7"
+        style="border-collapse: collapse"
+        width="500"
+        height="500"
+      >
+        <caption>
+          course details:
+        </caption>
+        <thead style="background-color: orange">
+          <tr>
+            <th colspan="2">sname</th>
+            <!--<th>name</th>-->
+            <th>course</th>
+            <th>year</th>
+          </tr>
+        </thead>
+        <tbody align="center">
+          <tr>
+            <td>1</td>
+            <td>siri</td>
+            <td rowspan="2">python</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>reshma</td>
+            <!--<td>python</td>-->
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>mahi</td>
+            <td>java</td>
+            <td>2023</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>hello</td>
+          </tr>
+        </tfoot>
+      </table>
+    </center>
+  </body>
+</html>
